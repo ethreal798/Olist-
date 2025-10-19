@@ -57,7 +57,7 @@
 ## 五、文件结构（File Structure）
 
 ```bash
-order_cleaned/
+order_analysis/
 ├── notebook/          # 存放 ETL 流程 (etl.ipynb) 与日志文件 (etl.log)
 ├── processed/          # 存放清洗后的结构化数据
 ├── raw/                # 原始源数据
