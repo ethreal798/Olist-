@@ -1,0 +1,153 @@
+2025-10-16 13:51:42,281 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_orders_dataset.csv')]
+2025-10-16 13:51:42,285 [ERROR] 文件未找到: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_orders_dataset.csv')]
+2025-10-16 13:53:17,300 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:53:17,301 [ERROR] 文件未找到: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:53:21,074 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:53:21,075 [ERROR] 文件未找到: [WindowsPath('../raw/orders_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:53:37,231 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:54:09,693 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:55:57,222 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:56:14,314 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:57:12,860 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 13:57:13,425 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:04:41,720 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:04:42,350 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:04:42,543 [INFO] [DATA QUALITY] 原始数据 - 行数: 99641 | 列数: 8 | 缺失率: 18.82% | 重复率: 0.00%
+2025-10-16 14:04:42,543 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 14:04:42,590 [INFO] 缺失值总数为150047
+2025-10-16 14:04:42,645 [INFO] 缺失列情况: 
+review_id                    762
+review_score                 762
+review_comment_title       88081
+review_comment_message     58918
+review_creation_date         762
+review_answer_timestamp      762
+dtype: int64
+2025-10-16 14:04:42,645 [INFO] review_id 为普通列，缺失数:762，填充为“U” 表示未知
+2025-10-16 14:33:00,708 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:33:01,622 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:34:01,828 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:34:02,462 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:34:14,464 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:34:15,072 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:37:36,332 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:37:37,332 [INFO] 加载完成，共99641行，8列
+2025-10-16 14:39:36,015 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:39:36,659 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:39:49,662 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:39:50,692 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:48:48,885 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:48:49,502 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:48:49,599 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:48:49,599 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 14:48:49,631 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 14:48:49,631 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 14:48:49,637 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 14:48:49,647 [INFO] 缺失值填充完成
+2025-10-16 14:48:49,714 [INFO] 无重复值
+2025-10-16 14:49:10,592 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:49:11,193 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:49:11,279 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:49:11,279 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 14:49:11,303 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 14:49:11,305 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 14:49:11,308 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 14:49:11,317 [INFO] 缺失值填充完成
+2025-10-16 14:49:11,381 [INFO] 无重复值
+2025-10-16 14:49:11,459 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:50:06,092 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:50:06,683 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:50:06,783 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:50:06,784 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 14:50:06,808 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 14:50:06,808 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 14:50:06,813 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 14:50:06,825 [INFO] 缺失值填充完成
+2025-10-16 14:50:06,896 [INFO] 无重复值
+2025-10-16 14:50:06,972 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:50:06,972 [INFO]  数据质量报告已保存至: ..\processed\data_quality_report.csv
+2025-10-16 14:52:46,311 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 14:52:47,296 [INFO] 加载完成，共98879行，8列
+2025-10-16 14:52:47,386 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 14:52:47,386 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 14:52:47,417 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 14:52:47,417 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 14:52:47,421 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 14:52:47,431 [INFO] 缺失值填充完成
+2025-10-16 14:52:47,507 [INFO] 无重复值
+2025-10-16 14:52:47,592 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 8 | 缺失率: 0.00% | 重复率: 0.00%
+2025-10-16 14:52:47,595 [INFO]  数据质量报告已保存至: ..\processed\data_quality_report.csv
+2025-10-16 15:10:15,728 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:10:16,928 [INFO] 加载完成，共98879行，8列
+2025-10-16 15:10:17,017 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 15:10:17,018 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 15:10:17,043 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 15:10:17,043 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 15:10:17,049 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 15:10:17,058 [INFO] 缺失值填充完成
+2025-10-16 15:10:17,134 [INFO] 无重复值
+2025-10-16 15:10:17,239 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 9 | 缺失率: 0.32% | 重复率: 0.00%
+2025-10-16 15:10:57,469 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:10:58,230 [INFO] 加载完成，共98879行，8列
+2025-10-16 15:10:58,329 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 15:10:58,329 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 15:10:58,361 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 15:10:58,366 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 15:10:58,371 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 15:10:58,381 [INFO] 缺失值填充完成
+2025-10-16 15:10:58,469 [INFO] 无重复值
+2025-10-16 15:10:58,569 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 9 | 缺失率: 0.32% | 重复率: 0.00%
+2025-10-16 15:10:58,842 [INFO] [LOAD] 数据已保存至..\processed\order_table_cleaned.csv
+2025-10-16 15:10:58,842 [INFO]  数据质量报告已保存至: ..\processed\data_quality_report.csv
+2025-10-16 15:12:54,577 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:12:55,524 [INFO] 加载完成，共98879行，8列
+2025-10-16 15:12:55,623 [INFO] [DATA QUALITY] 原始数据 - 行数: 98879 | 列数: 8 | 缺失率: 18.39% | 重复率: 0.00%
+2025-10-16 15:12:55,623 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 15:12:55,659 [INFO] 缺失列情况: 
+review_comment_title      87319
+review_comment_message    58156
+dtype: int64
+2025-10-16 15:12:55,659 [INFO] review_comment_title 为普通列，缺失数:87319，填充为“U” 表示未知
+2025-10-16 15:12:55,663 [INFO] review_comment_message 为普通列，缺失数:58156，填充为“U” 表示未知
+2025-10-16 15:12:55,679 [INFO] 缺失值填充完成
+2025-10-16 15:12:55,759 [INFO] 无重复值
+2025-10-16 15:12:55,859 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 98879 | 列数: 9 | 缺失率: 0.32% | 重复率: 0.00%
+2025-10-16 15:12:56,133 [INFO] [LOAD] 数据已保存至..\processed\order_review_wide.csv
+2025-10-16 15:12:56,138 [INFO]  数据质量报告已保存至: ..\processed\data_quality_report.csv
+2025-10-16 15:36:24,062 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:37:59,797 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:38:22,501 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:41:01,369 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:42:08,277 [INFO] [EXTRACT] 正在加载数据: [WindowsPath('../raw/order_table_cleaned.csv'), WindowsPath('../raw/olist_order_reviews_dataset.csv')]
+2025-10-16 15:42:09,031 [INFO] 加载完成，共96095行，8列
+2025-10-16 15:42:09,107 [INFO] [DATA QUALITY] 原始数据 - 行数: 96095 | 列数: 8 | 缺失率: 18.48% | 重复率: 0.00%
+2025-10-16 15:42:09,107 [INFO] [TRANSFORM] 查看缺失值......
+2025-10-16 15:42:09,131 [INFO] 缺失列情况: 
+review_comment_title      84887
+review_comment_message    57183
+dtype: int64
+2025-10-16 15:42:09,131 [INFO] review_comment_title 为普通列，缺失数:84887，填充为“U” 表示未知
+2025-10-16 15:42:09,137 [INFO] review_comment_message 为普通列，缺失数:57183，填充为“U” 表示未知
+2025-10-16 15:42:09,147 [INFO] 缺失值填充完成
+2025-10-16 15:42:09,213 [INFO] 无重复值
+2025-10-16 15:42:09,292 [INFO] [DATA QUALITY] 清洗后数据 - 行数: 96095 | 列数: 9 | 缺失率: 0.00% | 重复率: 0.00%
+2025-10-16 15:42:09,534 [INFO] [LOAD] 数据已保存至..\processed\order_review_wide.csv
+2025-10-16 15:42:09,536 [INFO]  数据质量报告已保存至: ..\processed\data_quality_report.csv
